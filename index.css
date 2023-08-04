@@ -1,12 +1,17 @@
 body{
-width: 550px;
+
 height: 550px;
 left: 62px;
 top: 64px;
 
 background: #1F2937;
-margin-left: 200px;
 
+
+}
+.content-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #überschrift{
 font-family: 'Karla';
@@ -47,7 +52,7 @@ background: #10B981;
 }
 
 #random-passwort1,#random-passwort2{
-
+  padding: 10px ;
 font-family: 'Inter';
 font-weight: 500;
 font-size: 16px;
@@ -56,12 +61,14 @@ text-align: center;
 background: #273549;
 color: #55F991;
 }
-#password-div{
-width: 211px;
+.password-div{
+max-widthwidth: 211px;
 height: 39px;
 margin: 5px 5px 0 0;
+
 }
 .flex-div{
   display: flex;
-  
+  gap: 20px;
+  flex-wrap: wrap;
 }
